@@ -378,7 +378,7 @@ a {
 @media (max-width: 767px) {
   .top {
     padding: 154px 0 242px 0;
-    background: url(img/mv.png) no-repeat;
+    background: url(img/mv-sp.png) no-repeat;
     background-position: 24% center;
     background-size: cover;
   }
