@@ -358,14 +358,14 @@ a {
 @media (min-width: 767px) {
   .top {
     padding: 146px 0 164px 0;
-    background: url(../img/mv-pc.png) no-repeat top -84px center/cover;
+    background: url(img/mv-pc.png) no-repeat top -84px center/cover;
   }
 }
 
 @media (max-width: 767px) {
   .top {
     padding: 154px 0 242px 0;
-    background: url(../img/mv-sp.png) no-repeat;
+    background: url(img/mv-sp.png) no-repeat;
     background-position: right -743px  top -71px;
     background-size: 1330px 672px;
   }
@@ -1160,7 +1160,7 @@ a {
     content: "";
     width: 80%;
     height: 71.5%;
-    background: url(../img/comments3@2x.png) no-repeat center center/cover;
+    background: url(img/comments3@2x.png) no-repeat center center/cover;
     right: -80%;
     top: 86px;
   }
@@ -1254,7 +1254,8 @@ a {
 }
 
 .question {
-  background: url(../img/qa-bg@2x.png) no-repeat center center/cover;
+  background: url(img/qa-bg@2x.png) no-repeat center center/cover;
+  background-attachment: fixed;
   text-align: center;
 }
 
@@ -1520,7 +1521,7 @@ a {
 }
 
 .contact {
-  background: url(../img/contact-bg.png) no-repeat center center/cover;
+  background: url(img/contact-bg.png) no-repeat center center/cover;
 }
 
 @media (min-width: 767px) {
@@ -1706,7 +1707,7 @@ a {
   padding: 12px 36px 9px 12px;
   font-size: 16px;
   border: 1px solid #707070;
-  background: url(../img/select-arrow.png) no-repeat right 12px center/13px 13px;
+  background: url(img/select-arrow.png) no-repeat right 12px center/13px 13px;
 }
 
 .contact-form-input select:hover {
@@ -2033,7 +2034,7 @@ a {
 .contact-form-check span::after {
   position: absolute;
   content: "";
-  background: url(../img/checkbox@2x.png) no-repeat center center/contain;
+  background: url(img/checkbox@2x.png) no-repeat center center/contain;
   width: 20px;
   height: 20px;
   -webkit-transform: translateY(-50%);
